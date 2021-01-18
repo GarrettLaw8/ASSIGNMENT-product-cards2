@@ -1,3 +1,40 @@
 body {
   background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+html {
+  font-family: fantasy;
+  text-align: center;
+  background-color: beige;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-shadow: #607D8B 1px 1px;
+  color:blue;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.product-card {
+  margin: 5em;
+  flex: 1 0 25%;
+  flex-direction: column;
+  width: 60em;
+  height: 60em;
+  border: 2px  #BDBDBD solid;
+  border-radius: 2%;
+  box-shadow:  2px 2px 10px black;
 }
