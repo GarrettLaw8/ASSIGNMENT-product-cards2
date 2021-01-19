@@ -1,3 +1,10 @@
+html {
+  font-family: fantasy;
+  text-align: center;
+  background-color: beige;
+  font-size: 20px;
+}
+
 body {
   background-color: beige;
   display: flex;
@@ -6,35 +13,71 @@ body {
   align-items: center;
 }
 
-
-html {
-  font-family: fantasy;
-  text-align: center;
-  background-color: beige;
-  font-size: 25px;
-  margin: 0;
-  padding: 0;
-}
-
 h2 {
-  text-shadow: #607D8B 1px 1px;
-  color:blue;
+  text-shadow: #607d8b 1px 1px;
+  color: blue;
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+  width: 80%;
 }
 
 .product-card {
-  margin: 5em;
   flex: 1 0 25%;
+  margin: 5em;
   flex-direction: column;
-  width: 60em;
-  height: 60em;
-  border: 2px  #BDBDBD solid;
-  border-radius: 2%;
-  box-shadow:  2px 2px 10px black;
+  border: 2px black;
+  box-shadow: 2px 2px 10px black;
+  height: auto;
+  width: auto;
+}
+
+.product-card p {
+  font-size: 3em;
+}
+.card-image img {
+  margin: 0 0 1em 0;
+  width: 450px;
+  height: 450px;
+}
+
+.card-availability p {
+  color: green;
+  font-size: 2em;
+  margin: 0.5em 0;
+  width: 100%;
+}
+.card-availability2 p {
+  color: red;
+  font-size: 2em;
+  margin: 0.5em 0;
+  width: 100%;
+}
+
+.card-specs {
+  font-size: 6pt;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+h4 {
+  font-size: x-large;
+}
+.card-specs footer p {
+  color: blue;
+  font-size: 1.3em;
+}
+
+.card-pricing {
+  color: black;
+  padding: 0;
+  margin: 0%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
